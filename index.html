@@ -1,1 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OB/GYN Shlav Bet Master Reference Book | שלב ב׳ מיילדות וגינקולוגיה</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <style>
+/* ==========================================================================
+   OB/GYN Shlav Bet Master Reader - Professional Medical Typography & Theme
+   ========================================================================== */
+
+:root {
+  --bg-app: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-sidebar: #0f172a;
+  --bg-sidebar-hover: #1e293b;
+  --bg-sidebar-active: #334155;
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --text-subtle: #64748b;
+  --text-sidebar: #e2e8f0;
+  --text-sidebar-muted: #94a3b8;
+  --border-color: #e2e8f0;
+  --border-subtle: #cbd5e1;
+  --primary-color: #0284c7;
+  --primary-hover: #0369a1;
+  --accent-color: #2563eb;
+  --code-bg: #f1f5f9;
+  --table-border: #cbd5e1;
+  --table-zebra: #f8fafc;
+  --table-header-bg: #e2e8f0;
+  --callout-note-bg: #eff6ff;
+  --callout-note-border: #3b82f6;
+  --callout-warning-bg: #fef2f2;
+  --callout-warning-border: #ef4444;
+  --callout-tip-bg: #f0fdf4;
+  --callout-tip-border: #22c55e;
+  --callout-important-bg: #f5f3ff;
+  --callout-important-border: #7c3aed;
+  --font-base-size: 16px;
+  --content-max-width: 920px;
+  --header-height: 56px;
+  --sidebar-width: 340px;
+  --toc-width: 250px;
+}
+
+body.theme-sepia {
+  --bg-app: #f4ede1;
+  --bg-surface: #fbf7ee;
+  --bg-sidebar: #2c251e;
+  --bg-sidebar-hover: #3d352c;
+  --bg-sidebar-active: #53483c;
+  --text-main: #2b231a;
+  --text-muted: #5e5244;
+  --text-subtle: #7d6f5f;
+  --text-sidebar: #f5ede2;
+  --text-sidebar-muted: #b8a896;
+  --border-color: #e2d7c5;
+  --border-subtle: #d3c4ad;
+  --primary-color: #92400e;
+  --primary-hover: #78350f;
+  --accent-color: #b45309;
+  --code-bg: #eee4d3;
+  --table-border: #d7c9b4;
+  --table-zebra: #f5efe4;
+  --table-header-bg: #eae0ce;
+  --callout-note-bg: #fbf3e6;
+  --callout-note-border: #d97706;
+  --callout-warning-bg: #faeae6;
+  --callout-warning-border: #dc2626;
+  --callout-tip-bg: #eef6ed;
+  --callout-tip-border: #16a34a;
+  --callout-important-bg: #f3ecfb;
+  --callout-important-border: #7c3aed;
+}
+
+body.theme-dark {
+  --bg-app: #0b0f19;
+  --bg-surface: #111827;
+  --bg-sidebar: #090d16;
+  --bg-sidebar-hover: #1f2937;
+  --bg-sidebar-active: #374151;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-subtle: #64748b;
+  --text-sidebar: #e2e8f0;
+  --text-sidebar-muted: #64748b;
+  --border-color: #1f2937;
+  --border-subtle: #374151;
+  --primary-color: #38bdf8;
+  --primary-hover: #7dd3fc;
+  --accent-color: #60a5fa;
+  --code-bg: #1e293b;
+  --table-border: #374151;
+  --table-zebra: #162032;
+  --table-header-bg: #1f2937;
+  --callout-note-bg: #172554;
+  --callout-note-border: #3b82f6;
+  --callout-warning-bg: #450a0a;
+  --callout-warning-border: #ef4444;
+  --callout-tip-bg: #052e16;
+  --callout-tip-border: #22c55e;
+  --callout-important-bg: #2e1065;
+  --callout-important-border: #a78bfa;
+}
+
+body.font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+body.layout-comfort { --content-max-width: 920px; }
+body.layout-full { --content-max-width: 1400px; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: var(--font-base-size); scroll-behavior: smooth; }
+body {
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  line-height: 1.75;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.read-progress-bar {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0284c7, #38bdf8);
+  z-index: 1000;
+  transition: width 0.1s ease-out;
+}
+
+.app-header {
+  height: var(--header-height);
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  z-index: 50;
+  flex-shrink: 0;
+}
+
+.header-left, .header-right { display: flex; align-items: center; gap: 0.75rem; }
+.brand-block { display: flex; flex-direction: column; }
+.brand-title { font-size: 0.875rem; font-weight: 800; letter-spacing: 0.04em; color: var(--primary-color); line-height: 1.2; }
+.brand-subtitle { font-size: 0.72rem; color: var(--text-muted); font-weight: 500; }
+.header-center { flex: 1; max-width: 460px; margin: 0 1rem; }
+
+.btn-icon {
+  background: none; border: 1px solid transparent; color: var(--text-muted);
+  width: 34px; height: 34px; border-radius: 6px;
+  display: inline-flex; align-items: center; justify-content: center; cursor: pointer;
+}
+.btn-icon:hover { background-color: var(--bg-app); color: var(--text-main); border-color: var(--border-color); }
+.btn-icon-sm {
+  background: var(--bg-app); border: 1px solid var(--border-color); color: var(--text-muted);
+  padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; cursor: pointer;
+}
+.btn-icon-sm:hover { background: var(--border-color); color: var(--text-main); }
+.font-size-group { display: flex; align-items: center; gap: 0.35rem; }
+.font-size-label { font-size: 0.75rem; color: var(--text-muted); min-width: 38px; text-align: center; }
+
+.theme-buttons { display: flex; gap: 0.35rem; }
+.btn-theme-swatch { width: 20px; height: 20px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; }
+.theme-btn-light { background-color: #ffffff; border-color: #cbd5e1; }
+.theme-btn-sepia { background-color: #fbf7ee; border-color: #c4b5a0; }
+.theme-btn-dark { background-color: #111827; border-color: #4b5563; }
+.btn-theme-swatch.active { box-shadow: 0 0 0 2px var(--primary-color); }
+
+.sidebar-nav { flex: 1; overflow-y: auto; padding: 0.5rem 0; }
+.topic-group { margin-bottom: 0.5rem; }
+.topic-header {
+  padding: 0.6rem 1rem; font-size: 0.8rem; font-weight: 700; color: #94a3b8;
+  cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;
+}
+.topic-header:hover { background-color: var(--bg-sidebar-hover); color: #f1f5f9; }
+.topic-title-block { display: flex; align-items: center; gap: 0.5rem; }
+.topic-toggle-arrow { font-size: 0.75rem; transition: transform 0.2s; }
+.topic-group:not(.open) .topic-toggle-arrow { transform: rotate(-90deg); }
+.topic-chapters { display: none; list-style: none; }
+.topic-group.open .topic-chapters { display: block; }
+
+.chapter-nav-item {
+  padding: 0.45rem 1rem 0.45rem 1.25rem; font-size: 0.8rem; color: var(--text-sidebar);
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 0.45rem;
+  cursor: pointer; border-left: 3px solid transparent; line-height: 1.35; text-decoration: none;
+}
+.chapter-nav-item:hover { background-color: var(--bg-sidebar-hover); color: #ffffff; }
+.chapter-nav-item.active { background-color: var(--bg-sidebar-active); color: #38bdf8; border-left-color: #38bdf8; font-weight: 600; }
+.ch-num { font-weight: 700; color: #38bdf8; flex-shrink: 0; }
+.ch-title { flex: 1; }
+.ch-badge-words { font-size: 0.68rem; color: var(--text-sidebar-muted); white-space: nowrap; }
+
+.badge-total { background-color: rgba(56, 189, 248, 0.2); color: #38bdf8; font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.45rem; border-radius: 10px; }
+
+.reader-meta-header { margin-bottom: 1.25rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; }
+.reader-breadcrumbs { font-size: 0.82rem; color: var(--text-subtle); margin-bottom: 0.5rem; }
+.reader-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+.badge { font-size: 0.72rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 4px; }
+.badge-topic { background-color: #e0f2fe; color: #0369a1; }
+.badge-words { background-color: var(--code-bg); color: var(--text-muted); }
+.badge-readtime { background-color: #fef3c7; color: #92400e; }
+.badge-sources { background-color: #f3e8ff; color: #6b21a8; font-weight: 500; }
+body.theme-dark .badge-topic { background-color: #0c4a6e; color: #7dd3fc; }
+body.theme-dark .badge-readtime { background-color: #451a03; color: #fcd34d; }
+body.theme-dark .badge-sources { background-color: #3b0764; color: #e9d5ff; }
+
+.chapter-main-title { font-size: 2.05rem; font-weight: 800; line-height: 1.25; color: var(--text-main); margin-bottom: 1.5rem; letter-spacing: -0.02em; }
+
+.inpage-toc {
+  width: var(--toc-width); flex-shrink: 0; position: sticky; top: 1.5rem;
+  max-height: calc(100vh - var(--header-height) - 3rem); overflow-y: auto;
+  padding: 0.75rem 0.5rem 0.75rem 1rem; border-left: 1px solid var(--border-color); font-size: 0.8rem;
+}
+.inpage-toc-title { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; color: var(--text-subtle); margin-bottom: 0.5rem; text-transform: uppercase; }
+.inpage-toc-list { list-style: none; }
+.inpage-toc-item { margin-bottom: 0.35rem; }
+.inpage-toc-item a { color: var(--text-muted); text-decoration: none; display: block; line-height: 1.35; }
+.inpage-toc-item a:hover { color: var(--primary-color); font-weight: 600; }
+.inpage-toc-item.toc-level-3 { padding-inline-start: 0.75rem; font-size: 0.75rem; }
+.inpage-toc-item.toc-level-4 { padding-inline-start: 1.3rem; font-size: 0.72rem; }
+
+.article-content h1, .article-content h2, .article-content h3, .article-content h4 {
+  color: var(--text-main); margin-top: 2.1rem; margin-bottom: 0.85rem; line-height: 1.3; font-weight: 700;
+  scroll-margin-top: calc(var(--header-height) + 1rem);
+}
+.article-content h2 { font-size: 1.45rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.35rem; }
+.article-content h3 { font-size: 1.2rem; color: var(--primary-color); }
+.article-content h4 { font-size: 1.05rem; }
+.heading-anchor { color: var(--border-subtle); text-decoration: none; font-weight: 400; margin-inline-start: 0.5rem; opacity: 0; }
+.article-content h2:hover .heading-anchor, .article-content h3:hover .heading-anchor { opacity: 1; }
+.article-content p { margin-bottom: 1.15rem; }
+.article-content ul, .article-content ol { margin-bottom: 1.15rem; padding-left: 1.75rem; }
+.article-content li { margin-bottom: 0.45rem; }
+.article-content strong { font-weight: 700; color: var(--text-main); }
+.article-content blockquote {
+  border-left: 4px solid var(--primary-color); padding: 0.6rem 1rem; margin: 1.2rem 0;
+  background: var(--code-bg); border-radius: 0 6px 6px 0;
+}
+
+.callout {
+  border-left: 4px solid var(--callout-note-border);
+  background-color: var(--callout-note-bg);
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+.callout-warning, .callout-caution { border-left-color: var(--callout-warning-border); background-color: var(--callout-warning-bg); }
+.callout-tip { border-left-color: var(--callout-tip-border); background-color: var(--callout-tip-bg); }
+.callout-important { border-left-color: var(--callout-important-border); background-color: var(--callout-important-bg); }
+.callout-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; }
+.callout-title { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
+.callout-body { font-size: 0.96rem; }
+.callout-body p:last-child { margin-bottom: 0; }
+
+.table-responsive { width: 100%; overflow-x: auto; margin: 1.5rem 0; border-radius: 8px; border: 1px solid var(--table-border); }
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; text-align: left; }
+th, td { padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--table-border); border-right: 1px solid var(--table-border); vertical-align: top; }
+th:last-child, td:last-child { border-right: none; }
+th { background-color: var(--table-header-bg); color: var(--text-main); font-weight: 700; }
+tr:nth-child(even) td { background-color: var(--table-zebra); }
+
+.chapter-nav-footer { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--border-color); }
+.nav-card {
+  background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.1rem;
+  text-align: left; cursor: pointer; display: flex; flex-direction: column; gap: 0.35rem; transition: all 0.2s;
+}
+.nav-card:hover { border-color: var(--primary-color); box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+.nav-card.next-card { text-align: right; }
+.nav-dir { font-size: 0.75rem; font-weight: 700; color: var(--primary-color); text-transform: uppercase; }
+.nav-card-title { font-size: 0.95rem; font-weight: 600; color: var(--text-main); line-height: 1.35; }
+
+.btn-back-to-top {
+  position: fixed; bottom: 2rem; right: 2rem; width: 42px; height: 42px; border-radius: 50%;
+  background: var(--primary-color); color: #ffffff; border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
+  opacity: 0; visibility: hidden; transition: all 0.2s; z-index: 60;
+}
+.btn-back-to-top.visible { opacity: 1; visibility: visible; }
+
+@media print {
+  .app-header, .app-sidebar, .inpage-toc, .chapter-nav-footer, .btn-back-to-top, .btn-reopen-sidebar { display: none !important; }
+  body, .app-main, .reader-container { overflow: visible !important; height: auto !important; width: 100% !important; max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+}
+
+
+/* App Layout, Search Modal, Citations, RTL/BiDi & Responsive Extensions */
+.app-main {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+.app-sidebar {
+  width: var(--sidebar-width);
+  background-color: var(--bg-sidebar);
+  color: var(--text-sidebar);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-inline-end: 1px solid var(--border-color);
+  transition: width 0.2s ease, transform 0.2s ease;
+  z-index: 40;
+}
+body.sidebar-collapsed .app-sidebar {
+  width: 0;
+  overflow: hidden;
+  border: none;
+}
+.sidebar-top {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sidebar-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+.sidebar-filter-input {
+  width: 100%;
+  padding: 0.42rem 0.65rem;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #f1f5f9;
+  font-size: 0.8rem;
+  outline: none;
+}
+.sidebar-filter-input:focus { border-color: #38bdf8; }
+.sidebar-progress-wrap {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.sidebar-progress-bar {
+  height: 5px;
+  background: #1e293b;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.sidebar-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #38bdf8);
+  width: 0%;
+  transition: width 0.25s;
+}
+.btn-reopen-sidebar {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  inset-inline-start: 1.5rem;
+  z-index: 60;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--bg-sidebar);
+  color: #ffffff;
+  border: 1px solid #334155;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+body.sidebar-collapsed .btn-reopen-sidebar { display: inline-flex; align-items: center; gap: 0.35rem; }
+
+.reader-viewport {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem 4rem 2rem;
+  gap: 2rem;
+}
+.reader-container {
+  width: 100%;
+  max-width: var(--content-max-width);
+  min-width: 0;
+}
+.article-content ul, .article-content ol { padding-inline-start: 1.75rem; padding-left: 0; }
+.article-content blockquote {
+  border-inline-start: 4px solid var(--primary-color);
+  border-left: none;
+  border-radius: 6px;
+}
+.callout {
+  border-inline-start: 4px solid var(--callout-note-border);
+  border-left: none;
+  border-radius: 8px;
+}
+.callout-warning, .callout-caution { border-inline-start-color: var(--callout-warning-border); }
+.callout-tip { border-inline-start-color: var(--callout-tip-border); }
+.callout-important { border-inline-start-color: var(--callout-important-border); }
+.inpage-toc {
+  border-inline-start: 1px solid var(--border-color);
+  border-left: none;
+  padding-inline-start: 1rem;
+  padding-left: 0;
+}
+.chapter-nav-item {
+  border-inline-start: 3px solid transparent;
+  border-left: none;
+  padding: 0.45rem 1rem;
+  padding-inline-start: 1.25rem;
+}
+.chapter-nav-item.active {
+  border-inline-start-color: #38bdf8;
+}
+.ch-check-dot {
+  width: 8px; height: 8px; border-radius: 50%; margin-top: 0.35rem; flex-shrink: 0;
+  background: #334155;
+}
+.ch-check-dot.done { background: #10b981; }
+
+/* Header Controls */
+.btn-search-trigger {
+  width: 100%;
+  background: var(--bg-app);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  border-radius: 8px;
+  padding: 0.38rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+.btn-search-trigger:hover { border-color: var(--primary-color); color: var(--text-main); }
+.kbd-hint {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  background: var(--border-color);
+  color: var(--text-main);
+  font-family: monospace;
+}
+.nav-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.32rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 1px solid var(--border-color);
+  background: var(--bg-app);
+  color: var(--text-main);
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.nav-pill-btn:hover { border-color: var(--primary-color); color: var(--primary-color); }
+.nav-pill-btn.active-lang { background: var(--primary-color); color: #ffffff; border-color: var(--primary-color); }
+.mode-toggle-btn.active { background: var(--primary-color); color: #ffffff; border-color: var(--primary-color); }
+.btn-mark-read {
+  padding: 0.35rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  color: var(--text-main);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-mark-read.completed { background: #10b981; color: #ffffff; border-color: #10b981; }
+
+/* Inline Citation Pill & Popover */
+.citation-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  line-height: 1;
+  padding: 0.12rem 0.35rem;
+  margin-inline: 0.15rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-subtle);
+  background: var(--code-bg);
+  color: var(--primary-color);
+  cursor: pointer;
+  vertical-align: baseline;
+  font-weight: 700;
+}
+.citation-pill:hover { background: var(--primary-color); color: #ffffff; border-color: var(--primary-color); }
+.citation-popover {
+  position: fixed;
+  z-index: 200;
+  max-width: 380px;
+  background: var(--bg-surface);
+  color: var(--text-main);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  display: none;
+}
+.citation-popover-label {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+}
+
+/* Search Modal */
+.search-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.65);
+  z-index: 300;
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 8vh;
+}
+.search-modal-backdrop.open { display: flex; }
+.search-modal {
+  width: min(720px, 92vw);
+  max-height: 76vh;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+.search-modal-input-row {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.search-modal-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text-main);
+  font-size: 1rem;
+  outline: none;
+}
+.search-modal-results {
+  overflow-y: auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.search-result-item {
+  padding: 0.7rem 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-align: start;
+  background: transparent;
+  color: var(--text-main);
+  width: 100%;
+}
+.search-result-item:hover { background: var(--bg-app); border-color: var(--border-color); }
+.search-result-title { font-weight: 700; font-size: 0.9rem; color: var(--primary-color); }
+.search-result-snippet { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.25rem; line-height: 1.45; }
+.search-highlight { background: #fef08a; color: #0f172a; padding: 0 2px; border-radius: 2px; }
+
+/* RTL & Hebrew BiDi Isolation */
+html[dir="rtl"] .article-content { direction: rtl; text-align: right; }
+html[dir="rtl"] table { text-align: right; }
+html[dir="rtl"] th, html[dir="rtl"] td { text-align: right; }
+html[dir="rtl"] .nav-card { text-align: right; }
+html[dir="rtl"] .nav-card.next-card { text-align: left; }
+html[dir="rtl"] .btn-back-to-top { right: auto; left: 2rem; }
+.article-content code, span[dir="ltr"], .katex { direction: ltr; unicode-bidi: isolate; }
+.article-content code {
+  background: var(--code-bg);
+  padding: 0.12rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+.complete-chapter-divider {
+  margin: 3.5rem 0 2.5rem 0;
+  border: 0;
+  border-top: 2px dashed var(--border-subtle);
+}
+
+/* Mobile & Tablet Android Chrome Safety */
+@media (max-width: 1180px) {
+  .inpage-toc { display: none; }
+}
+@media (max-width: 1023px) {
+  body { height: auto; min-height: 100vh; overflow-y: auto; }
+  .app-main { display: block; overflow: visible; }
+  .app-sidebar {
+    position: fixed;
+    top: var(--header-height);
+    bottom: 0;
+    inset-inline-start: 0;
+    width: min(86vw, 340px);
+    transform: translateX(-105%);
+    box-shadow: 4px 0 24px rgba(0,0,0,0.25);
+  }
+  html[dir="rtl"] .app-sidebar { transform: translateX(105%); }
+  body.mobile-sidebar-open .app-sidebar { transform: translateX(0); }
+  .reader-viewport { overflow: visible; padding: 1.25rem 1rem 3.5rem 1rem; display: block; }
+  .header-center { display: none; }
+  .brand-subtitle, .font-size-group, #btn-layout-toggle, #btn-print { display: none; }
+  .chapter-nav-footer { grid-template-columns: 1fr; }
+}
+
+  </style>
+</head>
+<body class="font-sans layout-comfort">
+  <div class="read-progress-bar" id="read-progress-bar" style="width: 0%;"></div>
+
+  <header class="app-header">
+    <div class="header-left">
+      <button type="button" class="btn-icon" id="btn-toggle-sidebar" onclick="toggleSidebar()" title="Toggle Sidebar (M)" aria-label="Toggle Sidebar">&#9776;</button>
+      <div class="brand-block">
+        <span class="brand-title" id="ui-brand-title">OB/GYN SHLAV BET</span>
+        <span class="brand-subtitle" id="ui-brand-sub">46 Chapters &bull; Gabbe &bull; Berek &amp; Novak &bull; Speroff</span>
+      </div>
+    </div>
+
+    <div class="header-center">
+      <button type="button" class="btn-search-trigger" onclick="openSearchModal()">
+        <span id="ui-search-placeholder">Search 46 chapters, dosages, trials, tables...</span>
+        <span class="kbd-hint">Ctrl+K</span>
+      </button>
+    </div>
+
+    <div class="header-right">
+      <button type="button" class="btn-icon" id="btn-mobile-search" onclick="openSearchModal()" title="Search">&#128269;</button>
+      <button type="button" class="nav-pill-btn mode-toggle-btn" id="btn-mode-toggle" onclick="toggleBookMode()" title="Chapter vs Complete Book Mode">Single Chapter</button>
+      <a class="nav-pill-btn" href="cards.html" id="ui-cards-link">&#9733; Cards &amp; Tables</a>
+      <button type="button" class="nav-pill-btn active-lang" id="btn-lang-toggle" onclick="toggleLanguage()" title="Switch EN / HE (Alt+L)">EN / עב</button>
+
+      <div class="font-size-group">
+        <button type="button" class="btn-icon-sm" onclick="adjustFontSize(-1)" title="Decrease Font">A-</button>
+        <span class="font-size-label" id="font-size-label">16px</span>
+        <button type="button" class="btn-icon-sm" onclick="adjustFontSize(1)" title="Increase Font">A+</button>
+      </div>
+
+      <button type="button" class="btn-icon-sm" id="btn-layout-toggle" onclick="toggleWidth()" title="Comfort / Full Width">&#8596;</button>
+
+      <div class="theme-buttons" aria-label="Theme">
+        <button type="button" class="btn-theme-swatch theme-btn-light active" data-theme="light" onclick="setTheme('light')" title="Day"></button>
+        <button type="button" class="btn-theme-swatch theme-btn-sepia" data-theme="sepia" onclick="setTheme('sepia')" title="Sepia"></button>
+        <button type="button" class="btn-theme-swatch theme-btn-dark" data-theme="dark" onclick="setTheme('dark')" title="Night"></button>
+      </div>
+
+      <button type="button" class="btn-icon-sm" id="btn-print" onclick="window.print()" title="Print / Save PDF">PDF</button>
+    </div>
+  </header>
+
+  <div class="app-main">
+    <aside class="app-sidebar" id="app-sidebar">
+      <div class="sidebar-top">
+        <div class="sidebar-top-row">
+          <span id="ui-curriculum-label">SHLAV BET SYLLABUS</span>
+          <span class="badge-total" id="ui-total-badge">46 CH</span>
+        </div>
+        <input type="text" class="sidebar-filter-input" id="sidebar-filter" oninput="filterSidebar(this.value)" placeholder="Filter chapters..." />
+        <div class="sidebar-progress-wrap">
+          <span id="ui-progress-text">0 / 46 completed (0%)</span>
+          <div class="sidebar-progress-bar"><div class="sidebar-progress-fill" id="sidebar-progress-fill"></div></div>
+        </div>
+      </div>
+      <nav class="sidebar-nav" id="sidebar-nav"></nav>
+    </aside>
+
+    <main class="reader-viewport" id="reader-viewport" onscroll="handleViewportScroll()">
+      <div class="reader-container" id="reader-container"></div>
+      <aside class="inpage-toc" id="inpage-toc">
+        <div class="inpage-toc-title" id="ui-toc-title">On This Page</div>
+        <ul class="inpage-toc-list" id="inpage-toc-list"></ul>
+      </aside>
+    </main>
+  </div>
+
+  <button type="button" class="btn-reopen-sidebar" onclick="toggleSidebar()" id="btn-reopen-sidebar">&#9776; Menu</button>
+  <button type="button" class="btn-back-to-top" id="btn-back-to-top" onclick="scrollToTop()" title="Back to top">&#8593;</button>
+
+  <div class="citation-popover" id="citation-popover" role="dialog">
+    <div class="citation-popover-label" id="citation-popover-label">SOURCE CITATION</div>
+    <div id="citation-popover-body"></div>
+  </div>
+
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target===this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-input-row">
+        <span>&#128269;</span>
+        <input type="text" class="search-modal-input" id="search-modal-input" oninput="runGlobalSearch(this.value)" placeholder="Search across all 46 chapters..." />
+        <button type="button" class="btn-icon-sm" onclick="closeSearchModal()">Esc</button>
+      </div>
+      <div class="search-modal-results" id="search-modal-results"></div>
+    </div>
+  </div>
+
+  <script src="book_data_en.js"></script>
+  <script src="book_data_he.js"></script>
+
+  <script>
+    const MANIFEST_TOPICS = [{"id": "01_MFM", "num": 1, "title_en": "Topic 1: Maternal-Fetal Medicine & High-Risk Obstetrics", "title_he": "תחום 1: רפואת האם והעובר ומיילדות בסיכון גבוה (MFM)", "short_en": "Maternal-Fetal Medicine", "short_he": "רפואת האם והעובר", "icon": "🤰"}, {"id": "02_Ultrasound_Prenatal", "num": 2, "title_en": "Topic 2: OB/GYN Ultrasound & Prenatal Diagnosis", "title_he": "תחום 2: אולטרסאונד במיילדות וגינקולוגיה ואבחון טרום-לידתי", "short_en": "Ultrasound & Prenatal Dx", "short_he": "אולטרסאונד ואבחון טרום-לידתי", "icon": "🖥️"}, {"id": "03_REI", "num": 3, "title_en": "Topic 3: Reproductive Endocrinology & Infertility (REI)", "title_he": "תחום 3: אנדוקרינולוגיה של הרבייה ופריון (REI)", "short_en": "REI & Infertility", "short_he": "אנדוקרינולוגיה ופריון", "icon": "🧬"}, {"id": "04_Gyn_Oncology", "num": 4, "title_en": "Topic 4: Gynecologic Oncology", "title_he": "תחום 4: גינקולוגיה אונקולוגית", "short_en": "Gyn Oncology", "short_he": "גינקולוגיה אונקולוגית", "icon": "🔬"}, {"id": "05_Urogynecology", "num": 5, "title_en": "Topic 5: Urogynecology & Pelvic Floor Reconstructive Surgery", "title_he": "תחום 5: אורוגינקולוגיה וכירורגיה משקמת של רצפת האגן", "short_en": "Urogynecology", "short_he": "אורוגינקולוגיה", "icon": "🩺"}, {"id": "06_General_Gyn_MIGS", "num": 6, "title_en": "Topic 6: General Gynecology & Minimally Invasive Surgery (MIGS)", "title_he": "תחום 6: גינקולוגיה כללית וכירורגיה זעיר-פולשנית (MIGS)", "short_en": "General Gyn & MIGS", "short_he": "גינקולוגיה ו-MIGS", "icon": "🔧"}, {"id": "07_PAG", "num": 7, "title_en": "Topic 7: Pediatric & Adolescent Gynecology (PAG)", "title_he": "תחום 7: גינקולוגיה של ילדות ומתבגרות (PAG)", "short_en": "Pediatric & Adolescent Gyn", "short_he": "גינקולוגיית ילדות ומתבגרות", "icon": "🌸"}];
+    let currentLang = localStorage.getItem('obgyn_reader_lang') || 'en';
+    let currentChapterNum = parseInt(localStorage.getItem('obgyn_reader_ch') || '1', 10);
+    if (isNaN(currentChapterNum) || currentChapterNum < 1 || currentChapterNum > 46) currentChapterNum = 1;
+    let bookMode = localStorage.getItem('obgyn_reader_mode') || 'chapter'; // 'chapter' | 'complete'
+    let currentTheme = localStorage.getItem('obgyn_reader_theme') || 'light';
+    let currentWidth = localStorage.getItem('obgyn_reader_width') || 'comfort';
+    let fontSize = parseInt(localStorage.getItem('obgyn_reader_font') || '16', 10);
+    let readProgress = JSON.parse(localStorage.getItem('obgyn_reader_done') || '{}');
+    let openTopics = JSON.parse(localStorage.getItem('obgyn_reader_open_topics') || '["01_MFM"]');
+
+    function getBookArray(lang) {
+      if (lang === 'he' && window.BOOK_DATA_HE) return window.BOOK_DATA_HE;
+      if (window.BOOK_DATA_EN) return window.BOOK_DATA_EN;
+      return window.BOOK_DATA_HE || [];
+    }
+
+    function escapeHtml(str) {
+      return str.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    function updateChromeLabels() {
+      const isHe = currentLang === 'he';
+      document.documentElement.lang = isHe ? 'he' : 'en';
+      document.documentElement.dir = isHe ? 'rtl' : 'ltr';
+      document.getElementById('ui-brand-title').textContent = isHe ? 'מיילדות וגינקולוגיה — שלב ב׳' : 'OB/GYN SHLAV BET';
+      document.getElementById('ui-brand-sub').textContent = isHe
+        ? '46 פרקים • Gabbe 8th • Berek 17th • Speroff 9th • הנחיות האיגוד הישראלי'
+        : '46 Chapters • Gabbe 8th • Berek & Novak 17th • Speroff 9th • Israeli Society';
+      document.getElementById('ui-search-placeholder').textContent = isHe
+        ? 'חיפוש בכל 46 הפרקים, מינונים, מחקרים וטבלאות...'
+        : 'Search 46 chapters, dosages, trials, tables...';
+      document.getElementById('ui-cards-link').textContent = isHe ? '★ כרטיסיות וטבלאות' : '★ Cards & Tables';
+      document.getElementById('btn-lang-toggle').textContent = isHe ? 'עברית | EN' : 'EN | עברית';
+      document.getElementById('btn-mode-toggle').textContent = bookMode === 'complete'
+        ? (isHe ? 'מצב ספר מלא' : 'Complete Book')
+        : (isHe ? 'מצב פרק בודד' : 'Single Chapter');
+      document.getElementById('btn-mode-toggle').classList.toggle('active', bookMode === 'complete');
+      document.getElementById('ui-curriculum-label').textContent = isHe ? 'סילבוס שלב ב׳' : 'SHLAV BET SYLLABUS';
+      document.getElementById('sidebar-filter').placeholder = isHe ? 'סינון פרקים...' : 'Filter chapters...';
+      document.getElementById('ui-toc-title').textContent = isHe ? 'תוכן העניינים' : 'On This Page';
+      document.getElementById('btn-reopen-sidebar').textContent = isHe ? '☰ תפריט' : '☰ Menu';
+      document.getElementById('citation-popover-label').textContent = isHe ? 'מקור ביבליוגרפי' : 'SOURCE CITATION';
+      document.getElementById('search-modal-input').placeholder = isHe ? 'חיפוש בכל 46 הפרקים...' : 'Search across all 46 chapters...';
+      updateProgressStats();
+    }
+
+    function updateProgressStats() {
+      const doneCount = Object.values(readProgress).filter(Boolean).length;
+      const pct = Math.round((doneCount / 46) * 100);
+      const isHe = currentLang === 'he';
+      document.getElementById('ui-progress-text').textContent = isHe
+        ? `${doneCount} / 46 פרקים הושלמו (${pct}%)`
+        : `${doneCount} / 46 completed (${pct}%)`;
+      document.getElementById('sidebar-progress-fill').style.width = `${pct}%`;
+    }
+
+    function renderSidebar(filterText = '') {
+      const data = getBookArray(currentLang);
+      const nav = document.getElementById('sidebar-nav');
+      const isHe = currentLang === 'he';
+      const q = filterText.trim().toLowerCase();
+      let html = '';
+
+      for (const topic of MANIFEST_TOPICS) {
+        const tChapters = data.filter(c => c.topic_id === topic.id && (
+          !q || c.title.toLowerCase().includes(q) || String(c.num).padStart(2, '0').includes(q)
+        ));
+        if (q && tChapters.length === 0) continue;
+        const isOpen = q ? true : openTopics.includes(topic.id);
+        const tTitle = isHe ? topic.title_he : topic.title_en;
+        html += `<div class="topic-group ${isOpen ? 'open' : ''}" data-topic="${topic.id}">`;
+        html += `<div class="topic-header" onclick="toggleTopic('${topic.id}')">
+          <div class="topic-title-block"><span>${topic.icon || ''}</span><span>${escapeHtml(tTitle)}</span></div>
+          <span class="topic-toggle-arrow">&#9662;</span>
+        </div>`;
+        html += `<ul class="topic-chapters">`;
+        for (const ch of tChapters) {
+          const active = (bookMode === 'chapter' && ch.num === currentChapterNum) ? 'active' : '';
+          const doneCls = readProgress[ch.num] ? 'done' : '';
+          const wBadge = ch.words ? `${(ch.words / 1000).toFixed(1)}k` : '—';
+          html += `<li><a href="#ch-${ch.num}" class="chapter-nav-item ${active}" onclick="selectChapter(${ch.num}); return false;">
+            <span class="ch-check-dot ${doneCls}"></span>
+            <span class="ch-num">${String(ch.num).padStart(2, '0')}</span>
+            <span class="ch-title">${escapeHtml(ch.title)}</span>
+            <span class="ch-badge-words">${wBadge}</span>
+          </a></li>`;
+        }
+        html += `</ul></div>`;
+      }
+      nav.innerHTML = html;
+    }
+
+    function toggleTopic(topicId) {
+      if (openTopics.includes(topicId)) {
+        openTopics = openTopics.filter(t => t !== topicId);
+      } else {
+        openTopics.push(topicId);
+      }
+      localStorage.setItem('obgyn_reader_open_topics', JSON.stringify(openTopics));
+      renderSidebar(document.getElementById('sidebar-filter').value);
+    }
+
+    function filterSidebar(val) { renderSidebar(val); }
+
+    function renderChapterBlock(ch, isCompleteMode) {
+      const isHe = currentLang === 'he';
+      const sourcesHtml = (ch.sources || []).map(s => `<span class="badge badge-sources">${escapeHtml(s)}</span>`).join(' ');
+      const done = !!readProgress[ch.num];
+      const doneBtnLabel = done
+        ? (isHe ? '✓ הושלם' : '✓ Completed')
+        : (isHe ? 'סמן כהושלם' : 'Mark Completed');
+      const wordLabel = isHe ? `${ch.words.toLocaleString()} מילים` : `${ch.words.toLocaleString()} words`;
+      const timeLabel = isHe ? `~${ch.read_mins} דק׳ קריאה` : `~${ch.read_mins} min read`;
+
+      return `
+        <article class="chapter-article" id="chapter-block-${ch.num}">
+          <div class="reader-meta-header">
+            <div class="reader-breadcrumbs">${escapeHtml(ch.topic_title)} &rsaquo; ${isHe ? 'פרק' : 'Chapter'} ${String(ch.num).padStart(2, '0')}</div>
+            <div class="reader-badges">
+              <span class="badge badge-topic">${escapeHtml(ch.topic_title)}</span>
+              <span class="badge badge-words">${wordLabel}</span>
+              <span class="badge badge-readtime">${timeLabel}</span>
+              ${sourcesHtml}
+              <button type="button" class="btn-mark-read ${done ? 'completed' : ''}" onclick="toggleChapterDone(${ch.num})">${doneBtnLabel}</button>
+            </div>
+          </div>
+          <h1 class="chapter-main-title">${String(ch.num).padStart(2, '0')}. ${escapeHtml(ch.title)}</h1>
+          <div class="article-content">${ch.html}</div>
+        </article>
+      `;
+    }
+
+    function renderReader() {
+      const data = getBookArray(currentLang);
+      const container = document.getElementById('reader-container');
+      const tocList = document.getElementById('inpage-toc-list');
+      const isHe = currentLang === 'he';
+
+      if (bookMode === 'complete') {
+        container.innerHTML = data.map((ch, idx) =>
+          renderChapterBlock(ch, true) + (idx < data.length - 1 ? '<hr class="complete-chapter-divider" />' : '')
+        ).join('');
+        tocList.innerHTML = data.map(ch =>
+          `<li class="inpage-toc-item"><a href="#chapter-block-${ch.num}">${String(ch.num).padStart(2, '0')}. ${escapeHtml(ch.title)}</a></li>`
+        ).join('');
+      } else {
+        const idx = data.findIndex(c => c.num === currentChapterNum);
+        const ch = idx >= 0 ? data[idx] : data[0];
+        if (!ch) { container.innerHTML = '<p>No chapters loaded.</p>'; return; }
+        const prev = idx > 0 ? data[idx - 1] : null;
+        const next = idx < data.length - 1 ? data[idx + 1] : null;
+        let navFooter = '<div class="chapter-nav-footer">';
+        navFooter += prev
+          ? `<button type="button" class="nav-card" onclick="selectChapter(${prev.num})"><span class="nav-dir">${isHe ? '→ הפרק הקודם' : '← Previous'}</span><span class="nav-card-title">${String(prev.num).padStart(2, '0')}. ${escapeHtml(prev.title)}</span></button>`
+          : '<div></div>';
+        navFooter += next
+          ? `<button type="button" class="nav-card next-card" onclick="selectChapter(${next.num})"><span class="nav-dir">${isHe ? 'הפרק הבא ←' : 'Next →'}</span><span class="nav-card-title">${String(next.num).padStart(2, '0')}. ${escapeHtml(next.title)}</span></button>`
+          : '<div></div>';
+        navFooter += '</div>';
+
+        container.innerHTML = renderChapterBlock(ch, false) + navFooter;
+        tocList.innerHTML = (ch.toc || []).map(item =>
+          `<li class="inpage-toc-item toc-level-${item.level}"><a href="#${item.id}">${escapeHtml(item.text)}</a></li>`
+        ).join('');
+      }
+
+      renderSidebar(document.getElementById('sidebar-filter').value);
+      bindCitations();
+      renderMath();
+      document.getElementById('reader-viewport').scrollTop = 0;
+      window.scrollTo(0, 0);
+    }
+
+    function selectChapter(num) {
+      currentChapterNum = num;
+      localStorage.setItem('obgyn_reader_ch', String(num));
+      const data = getBookArray(currentLang);
+      const ch = data.find(c => c.num === num);
+      if (ch && !openTopics.includes(ch.topic_id)) {
+        openTopics.push(ch.topic_id);
+        localStorage.setItem('obgyn_reader_open_topics', JSON.stringify(openTopics));
+      }
+      if (bookMode === 'complete') {
+        const el = document.getElementById('chapter-block-' + num);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        renderReader();
+      }
+      document.body.classList.remove('mobile-sidebar-open');
+    }
+
+    function toggleChapterDone(num) {
+      readProgress[num] = !readProgress[num];
+      localStorage.setItem('obgyn_reader_done', JSON.stringify(readProgress));
+      updateProgressStats();
+      renderReader();
+    }
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'en' ? 'he' : 'en';
+      localStorage.setItem('obgyn_reader_lang', currentLang);
+      updateChromeLabels();
+      renderReader();
+    }
+
+    function toggleBookMode() {
+      bookMode = bookMode === 'chapter' ? 'complete' : 'chapter';
+      localStorage.setItem('obgyn_reader_mode', bookMode);
+      updateChromeLabels();
+      renderReader();
+    }
+
+    function toggleSidebar() {
+      if (window.innerWidth < 1024) {
+        document.body.classList.toggle('mobile-sidebar-open');
+      } else {
+        document.body.classList.toggle('sidebar-collapsed');
+      }
+    }
+
+    function setTheme(theme) {
+      currentTheme = theme;
+      localStorage.setItem('obgyn_reader_theme', theme);
+      document.body.classList.remove('theme-sepia', 'theme-dark');
+      if (theme === 'sepia') document.body.classList.add('theme-sepia');
+      if (theme === 'dark') document.body.classList.add('theme-dark');
+      document.querySelectorAll('.btn-theme-swatch').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-theme') === theme);
+      });
+    }
+
+    function adjustFontSize(delta) {
+      fontSize = Math.min(22, Math.max(13, fontSize + delta));
+      localStorage.setItem('obgyn_reader_font', String(fontSize));
+      document.documentElement.style.setProperty('--font-base-size', fontSize + 'px');
+      document.getElementById('font-size-label').textContent = fontSize + 'px';
+    }
+
+    function toggleWidth() {
+      currentWidth = currentWidth === 'comfort' ? 'full' : 'comfort';
+      localStorage.setItem('obgyn_reader_width', currentWidth);
+      document.body.classList.toggle('layout-comfort', currentWidth === 'comfort');
+      document.body.classList.toggle('layout-full', currentWidth === 'full');
+    }
+
+    function handleViewportScroll() {
+      const vp = document.getElementById('reader-viewport');
+      const st = vp.scrollTop;
+      const sh = vp.scrollHeight - vp.clientHeight;
+      const pct = sh > 0 ? Math.min(100, Math.round((st / sh) * 100)) : 0;
+      document.getElementById('read-progress-bar').style.width = pct + '%';
+      document.getElementById('btn-back-to-top').classList.toggle('visible', st > 320);
+    }
+
+    function scrollToTop() {
+      document.getElementById('reader-viewport').scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function bindCitations() {
+      const pop = document.getElementById('citation-popover');
+      const body = document.getElementById('citation-popover-body');
+      document.querySelectorAll('.citation-pill').forEach(btn => {
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          body.textContent = btn.getAttribute('data-cite');
+          const rect = btn.getBoundingClientRect();
+          pop.style.display = 'block';
+          const top = Math.min(window.innerHeight - 160, rect.bottom + 8);
+          const left = Math.max(12, Math.min(window.innerWidth - 395, rect.left - 80));
+          pop.style.top = top + 'px';
+          pop.style.left = left + 'px';
+        };
+      });
+    }
+
+    document.addEventListener('click', (e) => {
+      const pop = document.getElementById('citation-popover');
+      if (pop.style.display === 'block' && !pop.contains(e.target)) {
+        pop.style.display = 'none';
+      }
+    });
+
+    function renderMath() {
+      if (typeof renderMathInElement === 'function') {
+        try {
+          renderMathInElement(document.getElementById('reader-container'), {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false },
+              { left: '\\(', right: '\\)', display: false },
+              { left: '\\[', right: '\\]', display: true }
+            ],
+            throwOnError: false
+          });
+        } catch (e) {}
+      }
+    }
+
+    function openSearchModal() {
+      document.getElementById('search-modal-backdrop').classList.add('open');
+      const inp = document.getElementById('search-modal-input');
+      inp.focus();
+      runGlobalSearch(inp.value);
+    }
+
+    function closeSearchModal() {
+      document.getElementById('search-modal-backdrop').classList.remove('open');
+    }
+
+    function runGlobalSearch(query) {
+      const q = query.trim();
+      const resEl = document.getElementById('search-modal-results');
+      const data = getBookArray(currentLang);
+      const isHe = currentLang === 'he';
+      if (q.length < 2) {
+        resEl.innerHTML = `<div style="padding:1rem;color:var(--text-muted);font-size:0.85rem;">${
+          isHe ? 'הקלד לפחות 2 תווים לחיפוש בכל 46 הפרקים...' : 'Type at least 2 characters to search across all 46 chapters...'
+        }</div>`;
+        return;
+      }
+      const ql = q.toLowerCase();
+      const matches = [];
+      for (const ch of data) {
+        const titleHit = ch.title.toLowerCase().includes(ql);
+        const bodyIdx = ch.search_text.toLowerCase().indexOf(ql);
+        if (titleHit || bodyIdx !== -1) {
+          let snippet = '';
+          if (bodyIdx !== -1) {
+            const start = Math.max(0, bodyIdx - 70);
+            const end = Math.min(ch.search_text.length, bodyIdx + q.length + 110);
+            snippet = (start > 0 ? '...' : '') + escapeHtml(ch.search_text.slice(start, end)) + (end < ch.search_text.length ? '...' : '');
+            const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+            snippet = snippet.replace(re, '<span class="search-highlight">$1</span>');
+          }
+          matches.push({ ch, snippet, score: (titleHit ? 2 : 0) + (bodyIdx !== -1 ? 1 : 0) });
+        }
+      }
+      matches.sort((a, b) => b.score - a.score);
+      if (!matches.length) {
+        resEl.innerHTML = `<div style="padding:1rem;color:var(--text-muted);">${isHe ? 'לא נמצאו תוצאות.' : 'No matching chapters found.'}</div>`;
+        return;
+      }
+      resEl.innerHTML = matches.slice(0, 30).map(m => `
+        <button type="button" class="search-result-item" onclick="jumpToSearchResult(${m.ch.num})">
+          <div class="search-result-title">${String(m.ch.num).padStart(2, '0')}. ${escapeHtml(m.ch.title)} <span style="font-weight:400;color:var(--text-muted);font-size:0.78rem;">(${escapeHtml(m.ch.topic_title)})</span></div>
+          ${m.snippet ? `<div class="search-result-snippet">${m.snippet}</div>` : ''}
+        </button>
+      `).join('');
+    }
+
+    function jumpToSearchResult(num) {
+      closeSearchModal();
+      selectChapter(num);
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        openSearchModal();
+      } else if (e.altKey && e.key.toLowerCase() === 'l') {
+        e.preventDefault();
+        toggleLanguage();
+      } else if (e.key === 'Escape') {
+        closeSearchModal();
+        document.getElementById('citation-popover').style.display = 'none';
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      setTheme(currentTheme);
+      document.body.classList.toggle('layout-comfort', currentWidth === 'comfort');
+      document.body.classList.toggle('layout-full', currentWidth === 'full');
+      document.documentElement.style.setProperty('--font-base-size', fontSize + 'px');
+      document.getElementById('font-size-label').textContent = fontSize + 'px';
+      updateChromeLabels();
+      renderReader();
+    });
+  </script>
+</body>
+</html>
 
