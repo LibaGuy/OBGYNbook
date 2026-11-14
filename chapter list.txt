@@ -1,0 +1,100 @@
+בחינת שלב ב' ביילוד וגינקולוגיה בישראל – המנוהלת על-ידי המועצה המדעית של ההסתדרות הרפואית בישראל (הר"י) והאיגוד הישראלי למיילדות וגינקולוגיה – היא בחינה קלינית בעל-פה המורכבת מ-5 עד 6 תחנות של כ-25–30 דקות כל אחת. בכל תחנה יושבים שני בוחנים המציגים 2–3 תרחישים קליניים אמיתיים, כולל פענוח ניטור דופק לב עובר (Cardiotocography – CTG), תמונות אולטרסאונד, צילומי רחם, ממצאי קולפוסקופיה והיסטופתולוגיה, תוך דרישה לקבלת החלטות מנומקת על בסיס ספרות הליבה הבינלאומית (Williams Obstetrics, Berek & Novak's Gynecology, Speroff) והנחיות האיגוד האמריקאי למיילדות וגינקולוגיה (American College of Obstetricians and Gynecologists – ACOG), הקולג' המלכותי למיילדות וגינקולוגיה (Royal College of Obstetricians and Gynecologists – RCOG), האיגוד הבינלאומי לאולטרסאונד במיילדות וגינקולוגיה (International Society of Ultrasound in Obstetrics and Gynecology – ISUOG) וניירות העמדה הישראליים.
+
+להלן מיפוי של 46 הנושאים השכיחים ביותר בבחינות שלב ב' בישראל, מחולקים לכל 7 תתי-ההתמחויות והתחומים המוכרים במקצוע (לפחות 4 נושאים בכל תת-התמחות):
+
+---
+
+### 1. רפואת האם והעובר ומיילדות בסיכון גבוה (Maternal-Fetal Medicine – MFM) – 8 נושאים
+
+1. **יתר לחץ דם בהריון, רעלת הריון (Preeclampsia) ותסמונת המוליזה, עלייה באנזימי כבד וטרומבוציטופניה (Hemolysis, Elevated Liver enzymes, and Low Platelets – HELLP):** קריטריונים לאבחנה חמורה, מניעה באספירין, פרוטוקול מגנזיום סולפט, איזון לחץ דם דחוף ותזמון יילוד.
+2. **סוכרת הריונית (Gestational Diabetes Mellitus – GDM) וסוכרת טרום-הריונית:** סקירה ואבחנה, יעדי איזון גליקמי, טיפול באינסולין מול תרופות פומיות, ניטור עובר, מניעת פרע כתפיים ותזמון לידה.
+3. **האטה בגדילה התוך-רחמית של העובר (Fetal Growth Restriction – FGR):** הבדלה מעובר קטן לגיל ההריון (Small for Gestational Age – SGA), הערכת זרימות דופלר בעורק הטבורי, בעורק המוח האמצעי (Middle Cerebral Artery – MCA) ובצינור הוורידי (Ductus Venosus – DV), ותזמון יילוד.
+4. **דימום לאחר לידה (Postpartum Hemorrhage – PPH):** זיהוי גורמי סיכון (4Ts), פרוטוקול טיפול תרופתי מדורג, טמפונדה תוך-רחמית בבלון, תפרי דחיסה (כגון B-Lynch), קשירת עורקים וכריתת רחם מצילת חיים.
+5. **ניסיון לידה נרתיקית לאחר ניתוח קיסרי (Trial of Labor After Cesarean – TOLAC) וקרע של הרחם:** התוויות נגד, חישוב סיכויי הצלחה, ניהול השראת לידה וזיהוי סימנים מוקדמים לקרע רחמי.
+6. **ירידת מים מוקדמת לפני המועד (Preterm Prelabor Rupture of Membranes – PPROM) ולידה מוקדמת:** אבחנה, טיפול אנטיביוטי מאריך הריון, מתן סטרואידים להבשלת ריאות, נוירו-פרוטקציה במגנזיום סולפט וזיהוי כוריואמניוניטיס.
+7. **מצגים פתולוגיים ולידות מכשירניות:** ניהול מצג עכוז (היפוך חיצוני לעומת ניתוח קיסרי), מצג פנים ומצח, תנאים לביצוע לידת ואקום או מלקחיים וניהול פרע כתפיים (Shoulder Dystocia).
+8. **מחלות אימהיות בהריון – קרישיות יתר, לב ותירואיד:** ניהול תסמונת אנטי-פוספוליפידית (Antiphospholipid Syndrome – APS) ותרומבופיליות בהריון, מחלות לב אימהיות (סיווג World Health Organization – WHO) והיפרתירואידיזם או היפותירואידיזם בהריון.
+
+---
+
+### 2. אולטרסאונד במיילדות וגינקולוגיה ואבחון טרום-לידתי (OB/GYN Ultrasound & Prenatal Diagnosis) – 6 נושאים
+
+9. **ספקטרום השליה הנעוצה (Placenta Accreta Spectrum – PAS) ושליית פתח (Placenta Previa):** סימנים סונוגרפיים מוקדמים ומאוחרים (לקונות, היעלמות האזור ההיפואקואי הרטרו-פלצנטרי), תכנון ניתוח קיסרי רב-תחומי וכריתת רחם.
+10. **סקר ואבחון גנטי טרום-לידתי:** שקיפות עורפית (Nuchal Translucency – NT), סקר ביוכימי, בדיקת דנ"א עוברי חופשי בדם האם (Non-Invasive Prenatal Testing – NIPT), דגימת סיסי שליה (Chorionic Villus Sampling – CVS), דיקור מי שפיר ושבב גנטי (Chromosomal Microarray Analysis – CMA).
+11. **הריונות מרובי עוברים וסיבוכי מונוכוריוניות:** קביעת כוריוניות ואמניוניות בטרימסטר הראשון, תסמונת מעבר דם בין תאומים (Twin-to-Twin Transfusion Syndrome – TTTS), אנמיה-פוליציטמיה בתאומים (Twin Anemia-Polycythemia Sequence – TAPS) והאטת גדילה סלקטיבית.
+12. **מומים עובריים שכיחים בסקירת מערכות:** בירור וניהול מומי מערכת העצבים המרכזית (כגון Spina Bifida והרחבת חדרי מוח), מומי לב מולדים, בקע סרעפתי מולד (Congenital Diaphragmatic Hernia – CDH) והידרונפרוזיס עוברית.
+13. **זיהומים תוך-רחמיים מלידה:** אבחנה סרולוגית (Avidity), דיקור מי שפיר ומעקב סונוגרפי ומגנטי (Magnetic Resonance Imaging – MRI) במקרי הדבקה בציטומגלווירוס (Cytomegalovirus – CMV), טוקסופלזמוזיס (Toxoplasmosis) ופרבווירוס B19 (כולל אנמיה עוברית ועירוי דם תוך-רחמי).
+14. **אפיון סונוגרפי של מסה אגנית:** סיווג סיכון לממאירות לפי מערכת O-RADS (Ovarian-Adnexal Reporting and Data System) וכללי IOTA (International Ovarian Tumor Analysis), ושילוב סמני גידול בבירור.
+
+---
+
+### 3. אנדוקרינולוגיה של הרבייה ופריון (Reproductive Endocrinology & Infertility – REI) – 8 נושאים
+
+15. **תסמונת השחלות הפוליציסטיות (Polycystic Ovary Syndrome – PCOS):** אבחנה לפי קריטריוני רוטרדם, השראת ביוץ (לטרוזול כקו ראשון לעומת קלומיפן ציטראט וגונדוטרופינים), תנגודת לאינסולין וסיכון להיפרפלזיה של רירית הרחם.
+16. **בירור וטיפול באי-פריון זוגי:** הערכת רזרבה שחלתית (Anti-Müllerian Hormone – AMH וספירת זקיקים אנטרליים – Antral Follicle Count – AFC), הדגמת חלל הרחם והחצוצרות (צילום רחם או HyCoSy), בירור אי-פריון גברי ואי-פריון בלתי מוסבר.
+17. **הפריה חוץ-גופית (In Vitro Fertilization – IVF) ושימור פריון:** פרוטוקולי גירוי שחלתי (אנטגוניסט מול אגוניסט), טריגר סופי לביוץ, אבחון גנטי טרום-השרשתי (Preimplantation Genetic Testing – PGT) ושימור פריון אונקולוגי ואלקטיבי.
+18. **תסמונת גירוי יתר שחלתי (Ovarian Hyperstimulation Syndrome – OHSS):** פתופיזיולוגיה (תיווך Vascular Endothelial Growth Factor – VEGF), אסטרטגיות מניעה (פרוטוקול אנטגוניסט, טריגר באגוניסט, הקפאת עוברים מלאה), סיווג חומרה וטיפול תומך.
+19. **אל-וסת ראשונית ומשנית (Primary & Secondary Amenorrhea):** אלגוריתם אבחנתי מובנה (תבחין הריון, הורמון מגרה בלוטת התריס – Thyroid-Stimulating Hormone – TSH, פרולקטין, הורמון מגרה זקיק – Follicle-Stimulating Hormone – FSH, ואסטרדיול) להבחנה בין כשל שחלתי, היפוגונדיזם היפוגונדוטרופי וסיבות אנטומיות (כגון תסמונת אשרמן).
+20. **היפרפרולקטינמיה ופרולקטינומה (Hyperprolactinemia & Prolactinoma):** אבחנה מבדלת (תרופות, תת-פעילות של בלוטת התריס, מיקרו-אדנומה ומאקרו-אדנומה), טיפול באגוניסטים לדופמין (קברגולין וברומוקריפטין) וניהול בהריון.
+21. **אי-ספיקה שחלתית מוקדמת (Premature Ovarian Insufficiency – POI) וגיל המעבר:** בירור קריוטיפ ופרמוטציה ב-FMR1, התאמת טיפול הורמונלי בגיל המעבר (Menopausal Hormone Therapy – MHT), התוויות נגד והגנה על צפיפות העצם והלב.
+22. **הפלות חוזרות (Recurrent Pregnancy Loss – RPL):** הגדרות, בירור קריוטיפ הורי, הדמיית חלל הרחם (מחיצה רחמית), בירור תסמונת אנטי-פוספוליפידית, איזון אנדוקריני וניהול הריון עוקב.
+
+---
+
+### 4. גינקולוגיה אונקולוגית (Gynecologic Oncology) – 8 נושאים
+
+23. **מניעה וגילוי מוקדם של סרטן צוואר הרחם:** חיסון כנגד נגיף הפפילומה האנושי (Human Papillomavirus – HPV), סקירה משולבת (Co-testing), אינדיקציות לקולפוסקופיה וניהול נאופלזיה תוך-אפיתליאלית של צוואר הרחם (Cervical Intraepithelial Neoplasia – CIN 1–3) כולל קוניזציה (Loop Electrosurgical Excision Procedure – LEEP).
+24. **סרטן צוואר הרחם החודרני:** דירוג עדכני של הפדרציה הבינלאומית לגינקולוגיה ומיילדות (International Federation of Gynecology and Obstetrics – FIGO), כריתת רחם רדיקלית מול כימו-קרינה דפיניטיבית, ואפשרויות שימור פריון (Trachelectomy).
+25. **היפרפלזיה של רירית הרחם וסרטן רירית הרחם:** טיפול בפרוגסטינים בהיפרפלזיה עם וללא אטיפיה (כולל שימור פריון), דירוג כירורגי ומולקולרי (POLE, Mismatch Repair Deficiency – MMRd, p53) ומיפוי בלוטת זקיף (Sentinel Lymph Node – SLN).
+26. **סרטן השחלה האפיתליאלי:** הערכה טרום-ניתוחית, עקרונות ניתוחי Debulking ראשוניים לעומת כימותרפיה ניאו-אדג'ובנטית (Neoadjuvant Chemotherapy – NACT) וטיפול אחזקה במעכבי PARP (Poly ADP-Ribose Polymerase).
+27. **ניהול נשאיות של מוטציות בגנים לסרטן השד והשחלה (Breast Cancer genes – BRCA1/BRCA2):** פרוטוקולי מעקב, ניתוח מפחית סיכון לכריתת חצוצרות ושחלות (Risk-Reducing Salpingo-Oophorectomy – RRSO), גיל מומלץ לניתוח ומתן טיפול הורמונלי חלופי לאחר הניתוח.
+28. **גידולי שחלה לא-אפיתליאליים:** אבחנה, סמנים אופייניים (Alpha-Fetoprotein – AFP, Beta-Human Chorionic Gonadotropin – beta-hCG, Lactate Dehydrogenase – LDH, Inhibin) וכירורגיה משמרת פריון בגידולי תאי נבט (Germ Cell Tumors) וגידולי סטרומה ומיטרי מין (Sex Cord-Stromal Tumors).
+29. **מחלה טרופובלסטית הריונית (Gestational Trophoblastic Disease – GTD):** אבחנה וריקון מולה שלמה וחלקית, מעקב beta-hCG, ניקוד סיכון לפי WHO/FIGO וטיפול במחלה טרופובלסטית הריונית ממאירה (Gestational Trophoblastic Neoplasia – GTN).
+30. **נגעים טרום-ממאירים וממאירים של העריה והנרתיק:** הבחנה בין Vulvar Intraepithelial Neoplasia (VIN) תלוי-HPV ללא-תלוי HPV (Differentiated VIN), ניהול Lichen Sclerosus, וטיפול כירורגי בסרטן העריה כולל דגימת בלוטת זקיף.
+
+---
+
+### 5. אורוגינקולוגיה וכירורגיה משקמת של רצפת האגן (Urogynecology & Pelvic Floor Reconstructive Surgery) – 5 נושאים
+
+31. **דליפת שתן במאמץ (Stress Urinary Incontinence – SUI):** הערכה קלינית, אינדיקציות לבדיקה אורודינמית, פיזיותרפיה של רצפת האגן וניתוחי מתלים תת-שופכתיים (Mid-Urethral Slings – MUS) כולל סיבוכיהם.
+32. **שלפוחית רגיזה (Overactive Bladder – OAB) ודליפת שתן מדחיפות:** שלילת זיהום בדרכי השתן (Urinary Tract Infection – UTI) ושארית שתן, שינוי אורחות חיים, טיפול תרופתי (אנטי-מוסקריניים ואגוניסטים ל-Beta-3) והזרקת בוטולינום טוקסין לדטרוזור.
+33. **צניחת איברי האגן (Pelvic Organ Prolapse – POP):** בדיקה וסיווג לפי POP-Q (Pelvic Organ Prolapse Quantification), התאמת פסרי (Pessary) ובחירה בין ניתוחים משקמים בגישה נרתיקית (כגון Sacrospinous Ligament Fixation) לגישה בטנית/לפרוסקופית (Sacrocolpopexy).
+34. **קרעים מיילדותיים של סוגר פי הטבעת (Obstetric Anal Sphincter Injuries – OASIS):** זיהוי וסיווג קרעים מדרגה 3 ו-4, עקרונות תיקון כירורגי ראשוני (End-to-End מול Overlapping), טיפול בתר-ניתוחי והמלצה על אופן הלידה בהריונות הבאים.
+35. **פיסטולות אורוגניטליות וסיבוכי דרכי השתן בכירורגיה גינקולוגית:** אבחון וטיפול בפיסטולה שלפוחיתית-נרתיקית (Vesicovaginal Fistula – VVF) ורקטו-וגינלית (Rectovaginal Fistula – RVF), ומניעה וזיהוי תוך-ניתוחי של פגיעה בשופכן ובשלפוחית השתן.
+
+---
+
+### 6. גינקולוגיה כללית וכירורגיה גינקולוגית זעיר-פולשנית (General Gynecology & Minimally Invasive Gynecologic Surgery – MIGS) – 7 נושאים
+
+36. **דימום רחמי לא תקין (Abnormal Uterine Bleeding – AUB):** סיווג הסיבות לפי מערכת PALM-COEIN (Polyp, Adenomyosis, Leiomyoma, Malignancy and hyperplasia – Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, Not yet classified), אינדיקציות לדגימת רירית הרחם וניהול דימום חריף וכרוני.
+37. **שרירנים ברחם (Uterine Leiomyomas) ואדנומיוזיס:** התאמת טיפול לפי מיקום (סיווג FIGO 0–8) ורצון לפריון – טיפול תרופתי (אגוניסטים ואנטגוניסטים ל-Gonadotropin-Releasing Hormone – GnRH), כריתת שרירן בהיסטרוסקופיה או לפרוסקופיה, ואמבוליזציה של עורקי הרחם.
+38. **אנדומטריוזיס וכאב אגני כרוני:** פתוגנזה, אבחון קליני והדמייתי (אולטרסאונד מכוון ו-MRI), טיפול הורמונלי מדכא כקו ראשון, תזמון כירורגיה לפרוסקופית וניהול אנדומטריומות בהקשר של רזרבה שחלתית.
+39. **הריון חוץ-רחמי (Ectopic Pregnancy) והריון במיקום לא ידוע (Pregnancy of Unknown Location – PUL):** קריטריונים לטיפול שמרני, טיפול תרופתי במתוטרקסט (Methotrexate – התוויות נגד ומעקב ימים 4 ו-7), כריתת חצוצרה בלפרוסקופיה והריון בצלקת ניתוח קיסרי (Cesarean Scar Pregnancy – CSP).
+40. **מחלה דלקתית של האגן (Pelvic Inflammatory Disease – PID) ומורסה שחלתית-חצוצרתית (Tubo-Ovarian Abscess – TOA):** קריטריונים לאבחנה, משטרי אנטיביוטיקה אמפיריים (אשפוזי ואמבולטורי) ואינדיקציות לניקוז מלעורי או כירורגי של TOA.
+41. **תסביב טפולה (Adnexal Torsion) וציסטות שחלתיות בהריון ומחוץ להריון:** זיהוי קליני וסונוגרפי (סימן המערבולת – Whirlpool Sign), גישה כירורגית דחופה לביצוע Detorsion ושימור שחלה גם בנוכחות מראה איסכמי.
+42. **בטיחות וסיבוכים בכירורגיה לפרוסקופית והיסטרוסקופית:** טכניקות כניסה לחלל הבטן ומניעת פגיעות בכלי דם ומעי, שימוש בטוח באנרגיה חשמלית (מונופולרית מול ביפולרית), ותסמונת ספיגת נוזלים (Fluid Overload ו-Hyponatremia) בהיסטרוסקופיה ניתוחית.
+
+---
+
+### 7. גינקולוגיה של ילדות ומתבגרות (Pediatric & Adolescent Gynecology – PAG) – 4 נושאים
+
+43. **התבגרות מינית מוקדמת ומאוחרת (Precocious & Delayed Puberty):** סיווג שלבי טאנר (Tanner Staging), הבחנה בין התבגרות מוקדמת מרכזית (תלוית-GnRH) לפריפרית, וניהול איחור בהתבגרות המינית.
+44. **מומים מולדים של מערכת המין הנשית (Müllerian Anomalies):** סיווג ASRM (American Society for Reproductive Medicine), אבחון וטיפול בקרום בתולים אטום (Imperforate Hymen), מחיצה נרתיקית רוחבית, רחם מחיצתי ותסמונת מאייר-רוקיטנסקי-קיסטר-האוזר (Mayer-Rokitansky-Küster-Hauser syndrome – MRKH).
+45. **דימום וגינלי בילדות טרום-התבגרות ודימום וסתי כבד במתבגרות:** שלילת גוף זר, זיהום, טראומה וגידולים בילדות טרום-התבגרות; בירור הפרעות קרישה מולדות (בעיקר מחלת פון-וילברנד – von Willebrand Disease) במתבגרות עם מנורגיה מההתחלה.
+46. **התמיינות מינית לא טיפוסית (Differences of Sex Development – DSD) והיפרפלזיה מולדת של האדרנל (Congenital Adrenal Hyperplasia – CAH):** אבחנה מבדלת של קריוטיפ 46,XX מול 46,XY (כגון תסמונת חוסר רגישות מלאה לאנדרוגנים – Complete Androgen Insensitivity Syndrome – CAIS), אינדיקציות לכריתת גונדות וניהול CAH קלאסי ולא-קלאסי.
+
+---
+
+### שיטת עבודה מומלצת ללמידה ממוקדת לבחינת שלב ב'
+
+כדי להפוך את רשימת 46 הנושאים הללו לכלי מעבר יעיל לבחינה בעל-פה, הדרך היעילה ביותר היא לבנות לכל נושא כרטיסיית "תסריט בוחנים" אחידה בת עמוד אחד הכוללת חמישה סעיפים קבועים: (1) הגדרות וקריטריונים לאבחנה, (2) בירור ראשוני ופענוח הדמיה/מעבדה אופיינית, (3) ניהול שמרני/תרופתי מול כירורגי, (4) ניהול סיבוכים ומצבי קיצון, ו-(5) נקודות מפתח מתוך ניירות העמדה של האיגוד הישראלי למיילדות וגינקולוגיה (היכן שקיים הבדל מהנחיות ACOG או RCOG).
+
+---
+
+Sources:
+
+[1] Obstetrics & Gynecology Residency Syllabus - Israeli Medical Association Scientific Council: [https://www.ima.org.il/mainsite/scientificcouncil/](https://www.google.com/search?q=https://www.ima.org.il/mainsite/scientificcouncil/)
+[2] Clinical Guidance & Practice Bulletins - American College of Obstetricians and Gynecologists (ACOG): [https://www.acog.org/clinical](https://www.acog.org/clinical)
+[3] Green-top Guidelines - Royal College of Obstetricians and Gynecologists (RCOG): [https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/](https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/)
+[4] Practice Guidelines - International Society of Ultrasound in Obstetrics and Gynecology (ISUOG): [https://www.isuog.org/clinical-resources/isuog-guidelines/practice-guidelines.html](https://www.isuog.org/clinical-resources/isuog-guidelines/practice-guidelines.html)
+[5] FIGO Cancer Report & Staging Guidelines - International Federation of Gynecology and Obstetrics (FIGO): [https://www.figo.org/resources/figo-statements](https://www.figo.org/resources/figo-statements)
